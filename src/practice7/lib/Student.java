@@ -1,7 +1,6 @@
 package practice7.lib;
 
 public class Student {
-
     private String name;
     private int id;
     private String location;
@@ -26,6 +25,10 @@ public class Student {
         return location;
     }
 
+    public void setLocation(String location) {
+        this.location = location;
+    }
+
     @Override
     public String toString() {
         return "Student{" +
@@ -33,9 +36,5 @@ public class Student {
                 ", id=" + id +
                 ", location='" + location + '\'' +
                 '}';
-    }
-
-    public void setLocation(String location) {
-        this.location = location;
     }
 }
