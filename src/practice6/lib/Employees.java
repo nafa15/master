@@ -1,2 +1,4 @@
-package practice6.lib;public class Employees {
+package practice6.lib;
+
+public class Employees {
 }
