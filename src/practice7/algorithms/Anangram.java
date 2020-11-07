@@ -23,9 +23,9 @@ public class Anangram {
         boolean anangram = Arrays.equals(firstArray,secondArray);
 
         if (anangram){
-            System.out.println("values are anangram");
+            System.out.println("values are anagrams");
         } else {
-            System.out.println("values are not anangram");
+            System.out.println("values are not anagrams");
         }
 
     }
